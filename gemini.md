@@ -119,7 +119,7 @@ Okay, I think it would be like this in Java:
 
 Java
 
-```
+``` Java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -130,7 +130,7 @@ public class ProductCatalog {
     }
 }
 
-```
+``` 
 
 Excellent! You've correctly declared a `List` of `String` called `productNames` and made an `ArrayList`. _**Why is it good to declare `productNames` as a `List` interface rather than directly as an `ArrayList`?**_
 
@@ -142,7 +142,7 @@ I think there's an `add()` method for Lists:
 
 Java
 
-```
+``` Java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -165,7 +165,7 @@ I can use a for-each loop:
 
 Java
 
-```
+``` Java
 import java.util.ArrayList;
 import java.util.List;
 
